@@ -148,7 +148,8 @@ public class ContactDbContext : DbContext
             new Contact { Id = 65, Name = "Marcus Cox", Email = "marcus.cox@financial.planning", Phone = "+1 (555) 567-4567", Company = "Financial Planning", Role = "Financial Planner" },
             new Contact { Id = 66, Name = "Nina Howard", Email = "nina.howard@mobile.apps", Phone = "+1 (555) 678-5678", Company = "Mobile Apps Co", Role = "Mobile Developer" },
             new Contact { Id = 67, Name = "Oscar Ward", Email = "oscar.ward@printing.press", Phone = "+1 (555) 789-6789", Company = "Printing Press", Role = "Print Manager" },
-            new Contact { Id = 68, Name = "Paula Torres", Email = "paula.torres@wellness.center", Phone = "+1 (555) 890-7890", Company = "Wellness Center", Role = "Wellness Coach" }
+            new Contact { Id = 68, Name = "Paula Torres", Email = "paula.torres@wellness.center", Phone = "+1 (555) 890-7890", Company = "Wellness Center", Role = "Wellness Coach" },
+            new Contact { Id = 69, Name = "Bert Berrevoets", Email = "bert@berrevoets.net", Phone = "+31 (06) 43754967", Company = "Berrevoets Systems", Role = "Developer" }
         );
     }
 }
