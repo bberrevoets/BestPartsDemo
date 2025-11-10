@@ -41,7 +41,7 @@ builder.Services.AddValidation();
 // download that, add it to your system PATH and then the following will work
 // (may need a restart of your IDE to get the PATH changes picked up)
 
-//builder.UseTailwindCli();
+builder.UseTailwindCli();
 
 var app = builder.Build();
 
