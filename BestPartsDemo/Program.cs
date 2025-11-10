@@ -22,15 +22,15 @@ builder.Services.AddScoped<IContactService, ContactService>();
 // uncomment this to enable Hybrid cache using Redis
 // (you will need to run the BestPartsDemo.AppHost Aspire project for this to work)
 
-// builder.AddRedisClient(connectionName: "cache");
-//
-// builder.Services.AddStackExchangeRedisCache(options =>
-// {
-//     options.Configuration = builder.Configuration.GetConnectionString("cache");
-//     options.InstanceName = "BestPartsDemo_";
-// });
-//
-// builder.Services.AddHybridCache();
+builder.AddRedisClient(connectionName: "cache");
+
+builder.Services.AddStackExchangeRedisCache(options =>
+{
+    options.Configuration = builder.Configuration.GetConnectionString("cache");
+    options.InstanceName = "BestPartsDemo_";
+});
+
+builder.Services.AddHybridCache();
 
 builder.Services.AddValidation();
 
