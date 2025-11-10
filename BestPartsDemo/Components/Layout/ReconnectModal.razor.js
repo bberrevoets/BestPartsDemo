@@ -51,7 +51,7 @@ async function resume() {
         if (!successful) {
             location.reload();
         }
-    } catch {
+    } catch(error) {
         location.reload();
     }
 }
