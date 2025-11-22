@@ -8,8 +8,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="Aspire.StackExchange.Redis" Version="9.5.2" />
-      <PackageReference Include="Aspire.StackExchange.Redis.DistributedCaching" Version="9.5.2" />
+      <PackageReference Include="Aspire.StackExchange.Redis" Version="13.0.0" />
+      <PackageReference Include="Aspire.StackExchange.Redis.DistributedCaching" Version="13.0.0" />
       <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="9.0.10" />
       <PackageReference Include="Microsoft.Extensions.Caching.Hybrid" Version="9.10.0" />
       <PackageReference Include="SuperSimpleBlazorModal" Version="1.2.0" />
